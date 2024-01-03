@@ -1,0 +1,32 @@
+@import url("../../css/main.css");
+h1{
+    font-size: 60px !important;
+}
+
+.img-artista {
+    width: 237px;
+    height: 233px;
+}
+
+.artistas{
+    margin-left: 8% !important;
+}
+
+.artistas card:hover{
+    cursor: pointer;
+}
+
+.subtitulo{
+    color: var(--titulo-texto-info);
+}
+
+.modal{
+    display: none;
+}
+.conteudo-modal{
+    width: 70%;
+    height: 400px !important;
+    margin-top: 60px;
+    background-color: var(--bg-color-padrao);
+    border-radius: 12px;
+}
